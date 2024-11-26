@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nút Bạc YouTube</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #e0e0e0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* Silver Play Button */
+    .silver-play-button {
+      width: 350px;
+      height: 500px;
+      background: linear-gradient(145deg, #d9d9d9, #f0f0f0);
+      border: 1px solid #bcbcbc;
+      border-radius: 15px;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+
+    /* Play Icon */
+    .play-icon {
+      width: 150px;
+      height: 150px;
+      background: linear-gradient(145deg, #ffffff, #dcdcdc);
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px auto 20px auto;
+      box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgba(255, 255, 255, 0.8);
+    }
+
+    .triangle {
+      width: 0;
+      height: 0;
+      border-left: 40px solid #ccc;
+      border-top: 30px solid transparent;
+      border-bottom: 30px solid transparent;
+    }
+
+    /* Text Content */
+    .text-content h2 {
+      font-size: 20px;
+      color: #333;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .text-content p {
+      font-size: 18px;
+      color: #666;
+      margin: 5px 0;
+    }
+
+    /* Footer YouTube Logo */
+    .youtube-logo {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 22px;
+      font-weight: bold;
+      color: #ff0000;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div class="silver-play-button">
+    <div class="play-icon">
+      <div class="triangle"></div>
+    </div>
+    <div class="text-content">
+      <h2>Presented to</h2>
+      <h2>Thào Đức Công</h2>
+      <p>For passing 100,000 subscribers</p>
+    </div>
+    <div class="youtube-logo">YouTube</div>
+  </div>
+</body>
+</html>
